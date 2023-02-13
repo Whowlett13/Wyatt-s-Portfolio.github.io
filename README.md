@@ -1,4 +1,3 @@
-# employee-portfolio
 # 02 Advanced CSS: Portfolio
 
 ## Your Task

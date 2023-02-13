@@ -7,24 +7,41 @@
 
 
 .Navbar {
-    display: block;
+    display: flex;
+    flex-direction: row;
     list-style: none;
     font-family: Verdana, Cosmic Sans, Tahoma, sans-serif;
+    border: 20px solid black;
     background-color: black;
-    box-shadow: 10px;
     color: whitesmoke;
+
+
+
+
+}
+
+ul li {
+    display: inline-block;
+    white-space: nowrap;
+    float: right;
+    justify-content: space-between;
+
+
 
 }
 
 .Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    white-space: wrap;
+    overflow: hidden;
+    max-width: 300px;
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
+    text-overflow: ellipsis;
 
-        white-space: nowrap;
-        overflow: hidden;
-        max-width: 300px;
-        border-left:1em solid transparent;
-        border-right:1em solid transparent;
-        text-overflow: ellipsis;
-    }
+}
 
 
 .Aboutme {
@@ -84,13 +101,13 @@
 
 
 .body {
-    
-        background-image: url("images/background.jpg");
-        background-color: #cccccc;
-        background-size: cover;
+
+    background-image: url("images/background.jpg");
+    background-color: #cccccc;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-       
+
 }
 
 .Footer {}

@@ -1,12 +1,96 @@
-.section[
-
-
-]
-
-.header{
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 
 }
-.nav img{
-    display: flex;
+
+
+.Navbar {
+    display: block;
+    list-style: none;
+    font-family: Verdana, Cosmic Sans, Tahoma, sans-serif;
+    background-color: black;
+    box-shadow: 10px;
+    color: whitesmoke;
+
+}
+
+.Header {
+
+        white-space: nowrap;
+        overflow: hidden;
+        max-width: 300px;
+        border-left:1em solid transparent;
+        border-right:1em solid transparent;
+        text-overflow: ellipsis;
+    }
+
+
+.Aboutme {
+    display: block;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #36454f;
+    color: #ffffff;
+
+}
+
+.Work {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #36454f;
+    color: #ffffff;
+
+}
+
+.Projects {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #36454f;
+    color: #ffffff;
+}
+
+.Resume {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #36454f;
+    color: #ffffff;
+
+}
+
+.Getintouch {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #36454f;
+    color: #ffffff;
+
+}
+
+
+.body {
     
+        background-image: url("images/background.jpg");
+        background-color: #cccccc;
+        background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+       
 }
+
+.Footer {}

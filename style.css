@@ -2,55 +2,40 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
+    font-family: Verdana, Cosmic Sans, Tahoma, sans-serif;
 }
 
 
 .Navbar {
     display: flex;
-    flex-direction: row;
-    list-style: none;
-    font-family: Verdana, Cosmic Sans, Tahoma, sans-serif;
+    justify-content: center;
     border: 20px solid black;
     background-color: black;
     color: whitesmoke;
-
-
-
-
-}
-
-ul li {
-    display: inline-block;
-    white-space: nowrap;
-    float: right;
-    justify-content: space-between;
-
-
-
 }
 
 .Header {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-    white-space: wrap;
-    overflow: hidden;
-    max-width: 300px;
-    border-left: 1em solid transparent;
-    border-right: 1em solid transparent;
-    text-overflow: ellipsis;
-
+    list-style-type: none;
+    border: 10px solid black;
+    background-color: black;
+}
+ul li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px
 }
 
-
 .Aboutme {
-    display: block;
+    display: flex;
+    flex d
     padding-top: 20px;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #36454f;
     color: #ffffff;
 
@@ -61,7 +46,6 @@ ul li {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #36454f;
     color: #ffffff;
 
@@ -72,7 +56,6 @@ ul li {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #36454f;
     color: #ffffff;
 }
@@ -82,7 +65,6 @@ ul li {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #36454f;
     color: #ffffff;
 
@@ -93,7 +75,6 @@ ul li {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #36454f;
     color: #ffffff;
 
@@ -110,4 +91,8 @@ ul li {
 
 }
 
-.Footer {}
+.Footer {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}

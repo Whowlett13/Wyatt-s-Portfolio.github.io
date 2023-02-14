@@ -36,21 +36,22 @@ ul li {
     justify-content: center;
 }
 
-.paragraph{
-display: flex;
-justify-content: center;
-align-items: center;
+.paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-#sharks img{
+#sharks img {
     display: flex;
     border: 300px;
     width: 300px;
-    height: 300px;
+    height: 250px;
 
 }
-#chef img{
+
+#chef img {
     display: flex;
     border: 300px;
     width: 300px;
@@ -60,7 +61,7 @@ align-items: center;
 
 .section {
     display: inline-block;
-    height: 300px; 
+    height: 300px;
     border: 5px solid rgb(234, 114, 0);
     display: flex;
     justify-content: space-evenly;
@@ -95,33 +96,49 @@ align-items: center;
 
 
 }
-#wendigo img{
+
+
+.instagram {
     display: flex;
-    border: 300px;
+    border: 20px;
     width: 300px;
     height: 250px;
 
 
-#instagram img{
+}
+#instagram img {
+    display: flex;
+    border: 20px;
+    width: 300px;
+    height: 250px;
+}
+.github {
+    display: flex;
+    border: 20px;
+    width: 300px;
+    height: 250px;
+}
+#github img {
     display: flex;
     border: 20px;
     width: 300px;
     height: 250px;
 }
 
-#github img{
-    display: flex;
-    border: 20px;
-    width: 300px;
-    height: 250px;
-}
-#googledoc img{
+#googledoc img {
     display: flex;
     border: 20px;
     width: 300px;
     height: 250px;
 }
 
+#wendio img {
+    display: flex;
+    border: 20px;
+    width: 30px;
+    height: 20px;
+
+}
 
 .Footer {
     display: flex;

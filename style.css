@@ -9,7 +9,7 @@
 .Navbar {
     display: flex;
     justify-content: center;
-    border: 20px solid black;
+    border: 5px solid orange;
     background-color: black;
     color: whitesmoke;
 }
@@ -30,82 +30,86 @@ ul li {
     padding-right: 20px
 }
 
-.Aboutme {
+.h1 {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 300px;
-    height: 300px;
-    background-color: #36454f;
-    color: #ffffff;
+}
 
+.paragraph{
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
 
-.Work {
+#sharks img{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 300px;
+    border: 300px;
+    width: 300px;
     height: 300px;
-    background-color: #36454f;
-    color: #ffffff;
 
+}
+#chef img{
+    display: flex;
+    border: 300px;
+    width: 300px;
+    height: 300px;
+
+}
+
+.section {
+    display: inline-block;
+    height: 300px; 
+    border: 5px solid rgb(234, 114, 0);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+    background-color: rgb(0, 109, 117);
+    color: rgb(255, 255, 255);
 }
 
 .flex-container {
-    border: 0px solid #ffffff;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: #36454f;
-    padding: 350px;
-    height: 350px;
-    color: #ffffff;
-}
-
-
-.horiseon {
+    border: 5px solid rgb(234, 114, 0);
     display: flex;
     justify-content: space-evenly;
-    max-width: 30px;
-    height: 30px;
-    
+    margin: 5px;
+    background-color: rgb(0, 109, 117);
+    color: rgb(255, 255, 255);
 }
 
-.preworkstudyguide {
+#horiseon img {
     display: flex;
-    justify-content: space-evenly;
-    width:30px;
-    height: 30px;
-    
-}
-
-.Resume {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 300px;
+    border: 30px;
+    width: 300px;
     height: 300px;
-    background-color: #36454f;
-    color: #ffffff;
 
 }
 
-.Getintouch {
+#preworkstudyguide img {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 300px;
+    border: 20px;
+    width: 300px;
     height: 300px;
-    background-color: #36454f;
-    color: #ffffff;
+
 
 }
+
+#instagram img{
+    display: flex;
+    border: 20px;
+    width: 300px;
+    height: 250px;
+}
+
+#github img{
+    display: flex;
+    border: 20px;
+    width: 300px;
+    height: 250px;
+}
+
+
 
 .Footer {
     display: flex;

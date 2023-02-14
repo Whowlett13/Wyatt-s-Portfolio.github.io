@@ -58,7 +58,8 @@ ul li {
 .flex-container {
     border: 0px solid #ffffff;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     background-color: #36454f;
     padding: 350px;
     height: 350px;
@@ -67,14 +68,18 @@ ul li {
 
 
 .horiseon {
-    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
     max-width: 30px;
+    height: 30px;
     
 }
 
 .preworkstudyguide {
-    margin: auto;
-    max-width:30px;
+    display: flex;
+    justify-content: space-evenly;
+    width:30px;
+    height: 30px;
     
 }
 
@@ -99,26 +104,6 @@ ul li {
     height: 300px;
     background-color: #36454f;
     color: #ffffff;
-
-}
-
-.float-left {
-    float: inline-end;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-
-.body {
-
-    background-image: url("im") background-color: #cccccc;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
 
 }
 

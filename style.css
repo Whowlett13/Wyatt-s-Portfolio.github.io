@@ -95,6 +95,12 @@ align-items: center;
 
 
 }
+#wendigo img{
+    display: flex;
+    border: 300px;
+    width: 300px;
+    height: 250px;
+
 
 #instagram img{
     display: flex;

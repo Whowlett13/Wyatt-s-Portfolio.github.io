@@ -23,6 +23,7 @@
     border: 10px solid black;
     background-color: black;
 }
+
 ul li {
     display: inline-block;
     padding-left: 20px;
@@ -31,39 +32,58 @@ ul li {
 
 .Aboutme {
     display: flex;
-    flex d
-    padding-top: 20px;
-    margin-bottom: 20px;
-    padding: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 300px;
     height: 300px;
     background-color: #36454f;
     color: #ffffff;
+
 
 }
 
 .Work {
-    padding-top: 20px;
-    margin-bottom: 20px;
-    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 300px;
     height: 300px;
     background-color: #36454f;
     color: #ffffff;
 
 }
 
-.Projects {
-    padding-top: 20px;
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
+.flex-container {
+    border: 0px solid #ffffff;
+    display: flex;
+    justify-content: center;
     background-color: #36454f;
+    padding: 350px;
+    height: 350px;
     color: #ffffff;
+}
+
+
+.horiseon {
+    margin: auto;
+    max-width: 30px;
+    
+}
+
+.preworkstudyguide {
+    margin: auto;
+    max-width:30px;
+    
 }
 
 .Resume {
-    padding-top: 20px;
-    margin-bottom: 20px;
-    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 300px;
     height: 300px;
     background-color: #36454f;
     color: #ffffff;
@@ -71,20 +91,31 @@ ul li {
 }
 
 .Getintouch {
-    padding-top: 20px;
-    margin-bottom: 20px;
-    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 300px;
     height: 300px;
     background-color: #36454f;
     color: #ffffff;
 
 }
 
+.float-left {
+    float: inline-end;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 
 .body {
 
-    background-image: url("images/background.jpg");
-    background-color: #cccccc;
+    background-image: url("im") background-color: #cccccc;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;

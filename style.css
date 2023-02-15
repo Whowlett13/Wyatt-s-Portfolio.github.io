@@ -8,6 +8,7 @@
 
 .Navbar {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     border: 5px solid orange;
     background-color: black;
@@ -16,6 +17,7 @@
 
 .Header {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -38,11 +40,30 @@ ul li {
 
 .paragraph {
     display: flex;
+    flex-basis: 150px;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
 }
+.sharks{
+    display: flex;
+    flex-basis: 50px;
+    border: 300px;
+    width: 300px;
+    height: 250px;
+    
 
+
+}
+.chef {
+    display: flex;
+    border: 300px;
+    max-width: 300px;
+    height: 250px;
+    
+
+}
 #sharks img {
     display: flex;
     border: 300px;
@@ -53,6 +74,7 @@ ul li {
 
 #chef img {
     display: flex;
+    flex-shrink: 3;
     border: 300px;
     width: 300px;
     height: 300px;
@@ -61,6 +83,7 @@ ul li {
 
 .section {
     display: inline-block;
+    flex-wrap: nowrap;
     height: 300px;
     border: 5px solid rgb(234, 114, 0);
     display: flex;
@@ -73,27 +96,37 @@ ul li {
 .flex-container {
     border: 5px solid rgb(234, 114, 0);
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
     margin: 5px;
     background-color: rgb(0, 109, 117);
     color: rgb(255, 255, 255);
     height: 500px;
 }
-
-#horiseon img {
+.element{
     display: flex;
     border: 30px;
     width: 385px;
     height: 385px;
+
+
+
+}
+#horiseon img {
+    display: flex;
+    border: 30px;
+    width: 300px;
+    height: 200px;
+    max-width: 350px;
 
 }
 
 #preworkstudyguide img {
     display: flex;
     border: 20px;
-    width: 375px;
-    height: 375px;
-
+    width: 300px;
+    height: 200px;
+    max-width: 350px;
 
 }
 
@@ -117,12 +150,14 @@ ul li {
     border: 20px;
     width: 300px;
     height: 250px;
+    max-width: 350px;
 }
 #github img {
     display: flex;
     border: 20px;
     width: 300px;
     height: 250px;
+    max-width: 350px;
 }
 
 #googledoc img {
@@ -130,18 +165,21 @@ ul li {
     border: 20px;
     width: 300px;
     height: 250px;
+    max-width: 350px;
 }
 
-#wendio img {
+#wendigo img {
     display: flex;
     border: 20px;
-    width: 30px;
-    height: 20px;
+    width: 300px;
+    height: 200px;
+    max-width: 350px;
 
 }
 
 .Footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     font-size: 30px;
 }

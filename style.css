@@ -78,18 +78,14 @@ ul li {
 
 .item4 {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 10px;
-    justify-content: center;
-    border: 200px;
-    width: 300px;
-    height: 250px;
+    
 
 
 
 }
-.item5 {display: flex;
+
+.item5 {
+    display: flex;
     flex-direction: row;
     align-items: center;
     padding: 10px;
@@ -98,6 +94,7 @@ ul li {
     width: 350px;
     height: 300px;
 }
+
 .section {
     display: flex;
     flex-wrap: wrap;
@@ -111,7 +108,12 @@ ul li {
 }
 
 
+.projects{
+display: flex;
+justify-content: start;
+align-items: start;
 
+}
 
 
 
@@ -125,18 +127,294 @@ ul li {
 
 @media screen and (max-width: 768px) {
 
-    .flexaboutme {
+    .Navbar {
         display: flex;
         flex-direction: column;
         flex-basis: 100%;
         flex-wrap: wrap;
-        min-height: 150px;
-        max-height: 150px;
-
-        /* flex-wrap: wrap; */
-        /* margin-right: 5px; */
-        /* justify-content: space-around; */
-        /* height: 250px; */
-
+        min-height: 600px;
+        max-height: 600px;
     }
-}
+
+
+    .Header {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        min-height: 600px;
+        max-height: 600px;
+    }
+
+    ul li {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        min-height: 600px;
+        max-height: 600px;
+    }
+
+
+
+    .item1 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        min-height: 600px;
+        max-height: 600px;
+    }
+
+    .item2 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        min-height: 600px;
+        max-height: 600px;
+    }
+
+    .item3 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        min-height: 600px;
+        max-height: 600px;
+    }
+
+    .item4 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        min-height: 600px;
+        max-height: 600px;
+    }
+
+    .item5 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        min-height: 600px;
+        max-height: 600px;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        min-height: 600px;
+        max-height: 600px;
+    }
+
+
+
+
+
+
+    .Footer {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        min-height: 600px;
+        max-height: 600px;
+    }
+
+    @media screen and (min-width: 992px) {
+
+        .Navbar {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            flex-wrap: wrap;
+            min-height: 60px;
+            max-height: 60px;
+        }
+
+
+        .Header {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            flex-wrap: wrap;
+            min-height: 600px;
+            max-height: 600px;
+        }
+
+        ul li {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            flex-wrap: wrap;
+            min-height: 600px;
+            max-height: 600px;
+        }
+
+
+
+        .item1 {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            flex-wrap: wrap;
+            min-height: 600px;
+            max-height: 600px;
+        }
+
+        .item2 {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            flex-wrap: wrap;
+            min-height: 25%;
+            max-height: 25%;
+        }
+
+        .item3 {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            flex-wrap: wrap;
+            min-height: 25%;
+            max-height: 25%;
+        }
+
+        .item4 {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            flex-wrap: wrap;
+            min-height: 25%;
+            max-height: 25%;
+        }
+
+        .item5 {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            flex-wrap: wrap;
+            min-height: 600px;
+            max-height: 600px;
+        }
+
+        .section {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            flex-wrap: wrap;
+            min-height: 600px;
+            max-height: 600px;
+        }
+
+
+
+
+
+
+        .Footer {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            flex-wrap: wrap;
+            min-height: 600px;
+            max-height: 600px;
+        }
+
+        @media screen and (max-width: 768px) {
+
+            .Navbar {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                flex-wrap: wrap;
+                min-height: 60px;
+                max-height: 60px;
+            }
+
+
+            .Header {
+                display: flex;
+                flex -wrap: wrap flex-direction: column;
+
+                flex-wrap: wrap;
+                min-height: 60px;
+                max-height: 60px;
+            }
+
+    
+
+
+            .item1 {
+                display: flex;
+                flex-direction: column;
+                flex-basis: 100%;
+                flex-wrap: wrap;
+                min-height: 600px;
+                max-height: 600px;
+            }
+
+            .item2 {
+                display: flex;
+                flex-direction: column;
+                flex-basis: 100%;
+                flex-wrap: wrap;
+                min-height: 600px;
+                max-height: 600px;
+            }
+
+            .item3 {
+                display: flex;
+                flex-direction: column;
+                flex-basis: 100%;
+                flex-wrap: wrap;
+                min-height: 600px;
+                max-height: 600px;
+            }
+
+            .item4 {
+                display: flex;
+                flex-direction: column;
+                flex-basis: 100%;
+                flex-wrap: wrap;
+                min-height: 600px;
+                max-height: 600px;
+            }
+
+            .item5 {
+                display: flex;
+                flex-direction: column;
+                flex-basis: 100%;
+                flex-wrap: wrap;
+                min-height: 600px;
+                max-height: 600px;
+            }
+
+            .section {
+                display: flex;
+                flex-direction: column;
+                flex-basis: 100%;
+                flex-wrap: wrap;
+                flex-wrap: wrap;
+                min-height: 800px;
+                max-height: 800px;
+            }
+
+
+
+
+
+
+            .Footer {
+                display: flex;
+                flex-direction: column;
+                flex-basis: 100%;
+                flex-wrap: wrap;
+                min-height: 600px;
+                max-height: 600px;
+            }
+        }
